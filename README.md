@@ -18,7 +18,7 @@ This is a PHP-based web app designed to manage design tokens across different us
 ## Technology Stack
 
 - **Backend**: PHP, MySQL
-- **Frontend**: React.js
+- **Frontend**: HTML CSS
 - **Server**: XAMPP (Apache, PHP, MySQL)
 - **Database Management**: phpMyAdmin for SQL database management
 - **Localhost**: Access via `http://localhost/chrisayala_finalproject/`
