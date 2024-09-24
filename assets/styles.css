@@ -1,0 +1,189 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #F4F4F4;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Dashboard Container */
+.dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.engineer-dashboard h1,
+.admin-dashboard h1 {
+    font-size: 2.5rem;
+    color: #007BFF;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.dashboard h2 {
+    font-size: 1.8rem;
+    color: #0056B3;
+    margin-bottom: 10px;
+}
+
+.dashboard p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #666666;
+}
+
+/* Navigation */
+.dashboard nav {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    list-style: none;
+}
+
+.dashboard nav ul li a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: #E9ECEF;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard nav ul li a:hover {
+    background-color: #007BFF;
+    color: #FFFFFF;
+}
+
+/* Dashboard Content */
+.dashboard .dashboard-content {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tables */
+.dashboard table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.dashboard table th, 
+.dashboard table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.dashboard table th {
+    background-color: #007BFF;
+    color: #FFFFFF;
+}
+
+.dashboard table td {
+    background-color: #E9ECEF;
+    color: #333333;
+}
+
+.dashboard table tr:nth-child(even) {
+    background-color: #F8F9FA;
+}
+
+/* Form Styles */
+.dashboard form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard form label {
+    font-size: 1rem;
+    color: #333333;
+}
+
+.dashboard form input[type="text"],
+.dashboard form input[type="email"],
+.dashboard form input[type="password"],
+.dashboard form input[type="number"],
+.dashboard form select {
+    padding: 10px;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    background-color: #F8F9FA;
+    color: #333333;
+    font-size: 1rem;
+}
+
+.dashboard form input[type="submit"],
+.dashboard form .btn {
+    align-self: flex-start;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #FFFFFF;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard form input[type="submit"]:hover,
+.dashboard form .btn:hover {
+    background-color: #0056B3;
+    color: #FFFFFF;
+}
+
+/* Additional Styles */
+.dashboard-content h2 {
+    margin-bottom: 20px;
+    color: #007BFF;
+}
+
+.splash-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px; 
+    margin: 5px; 
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
